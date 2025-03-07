@@ -5,6 +5,13 @@ import Header from "@/components/homepage/Header";
 import Reviews from "@/components/homepage/Reviews";
 import { Product } from "@/types/product.types";
 import { Review } from "@/types/review.types";
+import { Carousel } from '../components/carousel';
+import { ThreeItemGrid } from '../components/grid/three-items';
+import Footer from '../components/layout/footer';
+
+
+
+
 
 export const newArrivalsData: Product[] = [
   {
